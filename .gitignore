@@ -24,6 +24,14 @@ mono_crash.*
 x64/
 x86/
 [Ww][Ii][Nn]32/
+
+# Allow SDL2 precompiled libs that live under x86/x64/Win32 subdirectories
+!SDL2-*/lib/x86/
+!SDL2-*/lib/x64/
+!SDL2-*/lib/[Ww][Ii][Nn]32/
+!SDL2-*/lib/x86/**
+!SDL2-*/lib/x64/**
+!SDL2-*/lib/[Ww][Ii][Nn]32/**
 [Aa][Rr][Mm]/
 [Aa][Rr][Mm]64/
 bld/
