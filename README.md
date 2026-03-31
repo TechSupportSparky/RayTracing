@@ -1,4 +1,4 @@
-# MultiThread_RayTracer
+# Multithreaded Ray Tracer with SDL
 
 This project is my version of the ["Ray Tracing: In a Weekend," and "Ray Tracing: The Next week,"](https://github.com/RayTracing/raytracing.github.io) course.  The raytracer itself follows much of the design of the book, however I've swapped from writing to a PPM file (as my write speeds are rather slow) over to using SDL for rendering. I've also utilized a few modern C++ techniques such as parallelizing the main render loop using `std::execution::par` to distribute work across all available CPU cores.
 
