@@ -2,12 +2,8 @@
 
 This project is my version of the ["Ray Tracing: In a Weekend," and "Ray Tracing: The Next week,"](https://github.com/RayTracing/raytracing.github.io) course.  The raytracer itself follows much of the design of the book, however I've swapped from writing to a PPM file (as my write speeds are rather slow) over to using SDL for rendering. I've also utilized a few modern C++ techniques such as parallilizing the main render loop to increase runtime.
 
-# Troubleshooting
-When opening the project, if you get the error "cannot include file SDL," you must include it in the build you're attempting following this step by step: https://lazyfoo.net/tutorials/SDL/01_hello_SDL/windows/msvc2019/index.php
-
-The source is located in the upper directory, just include the files for the debug/shipping version that you intend to run.  You just need to include either the x86/x64 version you need.
-
-This project was originally uploaded as just an x86 project with debug/release set properly.  If you're pulling this code, be sure you have swapped your project over before attempting to run.
+# Building
+SDL2 is included in the repository under `SDL2-2.26.5/`, so no manual setup is required. Simply clone the repo, open the solution in Visual Studio, and build.
 
 # Renders
 
